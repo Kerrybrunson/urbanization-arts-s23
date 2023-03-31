@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://Kerrybrunson.github.io/urbanization-arts-s23/dream-blues/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Dream Blues" ] },
+    "homepage": [
+      {
+        "id": "https://collections.si.edu/search/detail/edanmdm:nmah_1301905?q=&amp;iiif.enabled=true&amp;fq=online_media_type%3A%22Sound+recordings%22&amp;record=6&amp;hlterm=",
+        "type": "Text",
+        "label": { "en": [ "Dream Blues" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "si.edu",
+        "type": "Agent",
+        "label": { "en": [ "Smithsonian Institution" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://Kerrybrunson.github.io/urbanization-arts-s23/dream-blues/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 172.0,
+        "items": [
+          {
+            "id": "https://Kerrybrunson.github.io/urbanization-arts-s23/dream-blues/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://Kerrybrunson.github.io/urbanization-arts-s23/dream-blues/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.si.edu/media/NMAH/NMAH-AHB2006q25601-000001.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 172.0
+                },
+                "target": "https://Kerrybrunson.github.io/urbanization-arts-s23/dream-blues/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
