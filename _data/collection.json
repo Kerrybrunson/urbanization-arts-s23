@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Urbanization and the Arts" ] },
+    "summary": { "en": [ "UCLA 1960s Cluster seminar (Spring 2023)" ] },
+    "items": [
+    ]
+}
